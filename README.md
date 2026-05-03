@@ -9,12 +9,12 @@ This project analyzes a retail superstore dataset to uncover key drivers of sale
 - Detect loss-making segments
 - Evaluate customer and sales patterns
 
-- ## Tools & Technologies
+## Tools & Technologies
 - Python (Pandas, NumPy)
 - Matplotlib, Seaborn
 - Google Colab
 
-- ## Key Insights
+## Key Insights
 - Office Supplies is the highest revenue-generating category.
 
 - Technology has the highest profit margin (~25%), while Furniture has the lowest (~12%).
@@ -27,12 +27,17 @@ This project analyzes a retail superstore dataset to uncover key drivers of sale
 
 - Sales show strong growth over time with recurring seasonal peaks (Q4).
 
-- ## Business Recommendations
+## Key Findings
+Discounting strategy is inefficient — it reduces profit (correlation: -0.32) while having almost no impact on sales (-0.09).
+
+Additionally, the Tables sub-category generates ~ -50K in losses, making it the largest contributor to profit decline.
+
+## Business Recommendations
 - - Reduce excessive discounting to improve margins
 - Review and optimize the Furniture category, especially Tables
 - Focus on profitability rather than just sales growth
 - Invest in high-performing categories like Technology
 - Use seasonal trends for better planning and promotions
 
-- ## Conclusion
+## Conclusion
 - The analysis highlights that revenue growth alone is not sufficient—profitability depends heavily on pricing strategies and cost efficiency. Addressing discounting practices and loss-making segments can significantly improve business performance.
